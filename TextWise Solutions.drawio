@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T09:46:02.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.8" etag="vnQ7NsCJziSRNmfgzJyT" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T09:59:10.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="cYroiRwrm-lzUrCiKbby" version="24.2.8" type="github">
   <diagram name="Page-1" id="JRZcmjMTkTMlrWtGoB6G">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zb-hRZLLhtc6XqKu027c-1" value="Start with a string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zb-hRZLLhtc6XqKu027c-2" target="zb-hRZLLhtc6XqKu027c-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zb-hRZLLhtc6XqKu027c-2" target="zb-hRZLLhtc6XqKu027c-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-2" value="Is the string empty or just&amp;nbsp;&lt;div&gt;have one character?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="170" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-3" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zb-hRZLLhtc6XqKu027c-4" target="zb-hRZLLhtc6XqKu027c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-4" value="Move on to process the test reverse for a substring from the index = 1 character to the end, at the same time put the first character (index = 0)at the end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="290" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zb-hRZLLhtc6XqKu027c-5" target="zb-hRZLLhtc6XqKu027c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-5" value="Return the string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zb-hRZLLhtc6XqKu027c-1" target="zb-hRZLLhtc6XqKu027c-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-14" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-15" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-16" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Clarifying Questions - no questions for now&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="460" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zb-hRZLLhtc6XqKu027c-17" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Time Complexity: O(n) as we traverse through each character in the given string&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Space Complexity:&amp;nbsp; O(n) as there&#39;s n recursive calls, in each I&#39;ll need to create places to host the result (current beginning character and the substring for beginning index = 1&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="460" height="85" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
