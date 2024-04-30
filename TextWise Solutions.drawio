@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T09:59:10.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="cYroiRwrm-lzUrCiKbby" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T05:36:24.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Tx_6MFh1g-Pu3vWb56Hy" version="24.2.8" type="github">
   <diagram name="Page-1" id="JRZcmjMTkTMlrWtGoB6G">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
         <mxCell id="zb-hRZLLhtc6XqKu027c-15" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zb-hRZLLhtc6XqKu027c-16" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Clarifying Questions - no questions for now&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zb-hRZLLhtc6XqKu027c-16" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Clarifying Questions - substring allowed to be used ?&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="450" width="460" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="zb-hRZLLhtc6XqKu027c-17" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Time Complexity: O(n) as we traverse through each character in the given string&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Space Complexity:&amp;nbsp; O(n) as there&#39;s n recursive calls, in each I&#39;ll need to create places to host the result (current beginning character and the substring for beginning index = 1&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zb-hRZLLhtc6XqKu027c-17" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Time Complexity: O(n^2) as we traverse through each character in the given string, and substring is O(n)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Space Complexity:&amp;nbsp; O(n) as there&#39;s n recursive calls, in each I&#39;ll need to create places to host the result (current beginning character and the substring for beginning index = 1&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="550" width="460" height="85" as="geometry" />
         </mxCell>
       </root>
